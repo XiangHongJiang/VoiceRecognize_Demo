@@ -1,5 +1,7 @@
 # VoiceRecognize_Demo
 
+简书地址：https://www.jianshu.com/p/d07b3f939262
+
 #### 项目介绍
 基于科大讯飞的语音识别封装
 1：在线语音听写（语音输入）
