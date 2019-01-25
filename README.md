@@ -16,8 +16,12 @@
 
 4. 开启网络
 
+5. 使用类
+![image](https://github.com/XiangHongJiang/VoiceRecognize_Demo/blob/master/CustomVoiceRecognize_Demo/Pic/1548398178892.jpg)
+
 
 #### 效果图
+<div align=center><img width="213" height="420" src="https://github.com/XiangHongJiang/VoiceRecognize_Demo/blob/master/CustomVoiceRecognize_Demo/Pic/VoiceRecognize.gif"/></div>
 
 
 
