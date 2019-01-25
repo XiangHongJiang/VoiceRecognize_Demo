@@ -16,8 +16,8 @@
 		FC2A823621007607008F28A7 /* CustomVoiceRecognize_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2A823521007607008F28A7 /* CustomVoiceRecognize_DemoTests.m */; };
 		FC2A824121007607008F28A7 /* CustomVoiceRecognize_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2A824021007607008F28A7 /* CustomVoiceRecognize_DemoUITests.m */; };
 		FC2A825621007735008F28A7 /* CustomRecognizeExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2A825521007735008F28A7 /* CustomRecognizeExampleTableViewController.m */; };
+		FC2DD59421FADDD000DE7FEF /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2DD59321FADDCF00DE7FEF /* iflyMSC.framework */; };
 		FCC4BF4121FAD3C80043308F /* VoiceRecognizerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC4BF4021FAD3C80043308F /* VoiceRecognizerManager.m */; };
-		FCC4BF4621FAD4820043308F /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC4BF4521FAD4820043308F /* iflyMSC.framework */; };
 		FCC4BF4921FAD4A30043308F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC4BF4821FAD4A30043308F /* libz.tbd */; };
 		FCC4BF4F21FAD4CC0043308F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC4BF4E21FAD4CC0043308F /* libc++.tbd */; };
 		FCC4BF5021FAD4D30043308F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC4BF4D21FAD4CC0043308F /* AddressBook.framework */; };
@@ -63,9 +63,9 @@
 		FC2A824221007607008F28A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC2A825421007735008F28A7 /* CustomRecognizeExampleTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomRecognizeExampleTableViewController.h; sourceTree = "<group>"; };
 		FC2A825521007735008F28A7 /* CustomRecognizeExampleTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomRecognizeExampleTableViewController.m; sourceTree = "<group>"; };
+		FC2DD59321FADDCF00DE7FEF /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
 		FCC4BF3F21FAD3C80043308F /* VoiceRecognizerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceRecognizerManager.h; sourceTree = "<group>"; };
 		FCC4BF4021FAD3C80043308F /* VoiceRecognizerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceRecognizerManager.m; sourceTree = "<group>"; };
-		FCC4BF4521FAD4820043308F /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = CustomVoiceRecognize_Demo/Demo/Model/Xunfei/iflyMSC.framework; sourceTree = SOURCE_ROOT; };
 		FCC4BF4821FAD4A30043308F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		FCC4BF4A21FAD4CC0043308F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		FCC4BF4B21FAD4CC0043308F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -86,7 +86,7 @@
 				FCC4BF5121FAD4D50043308F /* AudioToolbox.framework in Frameworks */,
 				FCC4BF5321FAD4DB0043308F /* SystemConfiguration.framework in Frameworks */,
 				FCC4BF4921FAD4A30043308F /* libz.tbd in Frameworks */,
-				FCC4BF4621FAD4820043308F /* iflyMSC.framework in Frameworks */,
+				FC2DD59421FADDD000DE7FEF /* iflyMSC.framework in Frameworks */,
 				FCC4BF5221FAD4D90043308F /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,21 +193,20 @@
 		FC2A8257210078C5008F28A7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FCC4BF4221FAD44B0043308F /* Xunfei */,
+				FC2DD59221FADDCF00DE7FEF /* Xunfei */,
 				FCC4BF3F21FAD3C80043308F /* VoiceRecognizerManager.h */,
 				FCC4BF4021FAD3C80043308F /* VoiceRecognizerManager.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		FCC4BF4221FAD44B0043308F /* Xunfei */ = {
+		FC2DD59221FADDCF00DE7FEF /* Xunfei */ = {
 			isa = PBXGroup;
 			children = (
-				FCC4BF4521FAD4820043308F /* iflyMSC.framework */,
+				FC2DD59321FADDCF00DE7FEF /* iflyMSC.framework */,
 			);
-			name = Xunfei;
-			path = CustomVoiceRecognize_Demo/Demo/Xunfei;
-			sourceTree = SOURCE_ROOT;
+			path = Xunfei;
+			sourceTree = "<group>";
 		};
 		FCC4BF4721FAD4A30043308F /* Frameworks */ = {
 			isa = PBXGroup;

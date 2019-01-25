@@ -1,35 +1,26 @@
-# CustomDrawTable_Demo
+# VoiceRecognize_Demo
 
 #### 项目介绍
-自定义简易表格绘制
-1：X，Y轴
-2：数值
-3：点击事件
-
-4：根据需求自动扩展（Demo提供一种思路以及参考）
-
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1. xxxx
-2. xxxx
-3. xxxx
+基于科大讯飞的语音识别封装
+1：在线语音听写（语音输入）
+2：离线语音识别（语音输入：待开发）
+3：语音合成（音频转文字）
 
 #### 使用说明
 
-1. 重绘类型为：固定横轴数量，增加单位长度
-![image](https://github.com/XiangHongJiang/CustomDrawTable_Demo/blob/master/CustomDrawTable_Demo/Pic/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202018-07-19%20at%2016.29.33.png?raw=true)
-2. 测试模型
-![image](https://github.com/XiangHongJiang/CustomDrawTable_Demo/blob/master/CustomDrawTable_Demo/Pic/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202018-07-19%20at%2016.29.35.png?raw=true)
+1. 导入讯飞framework，添加依赖库
 
-3. 重绘类型为：固定单位长度，增加横轴数量
-![image](https://github.com/XiangHongJiang/CustomDrawTable_Demo/blob/master/CustomDrawTable_Demo/Pic/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202018-07-19%20at%2016.29.37.png?raw=true)
+2. AppDelegate 启动 配置 讯飞识别Id
 
-3. 重绘类型为：保持X数量不变，根据月份调整
-![image](https://github.com/XiangHongJiang/CustomDrawTable_Demo/blob/master/CustomDrawTable_Demo/Pic/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202018-07-27%20at%2015.30.17.png)
+3. Info.plist添加麦克风权限
+
+4. 开启网络
+
+
+#### 效果图
+
+
+
 
 
 
