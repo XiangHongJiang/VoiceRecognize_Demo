@@ -61,7 +61,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.navigationItem.title = @"语音识别";
     self.dataArray = @[@"开始识别",@"停止"];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
     UIView *headerView = self.headerView;
@@ -91,6 +91,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     NSInteger index = indexPath.row;
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
     UITableViewCell *baseCell  = [tableView cellForRowAtIndexPath:indexPath];
     __weak typeof(self) weakSelf = self;
     
