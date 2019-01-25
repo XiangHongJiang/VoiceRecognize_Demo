@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC2A821E21007607008F28A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2A821D21007607008F28A7 /* AppDelegate.m */; };
+		FC2A822121007607008F28A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2A822021007607008F28A7 /* ViewController.m */; };
+		FC2A822421007607008F28A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2A822221007607008F28A7 /* Main.storyboard */; };
+		FC2A822621007607008F28A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2A822521007607008F28A7 /* Assets.xcassets */; };
+		FC2A822921007607008F28A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2A822721007607008F28A7 /* LaunchScreen.storyboard */; };
+		FC2A822C21007607008F28A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2A822B21007607008F28A7 /* main.m */; };
+		FC2A823621007607008F28A7 /* CustomVoiceRecognize_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2A823521007607008F28A7 /* CustomVoiceRecognize_DemoTests.m */; };
+		FC2A824121007607008F28A7 /* CustomVoiceRecognize_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2A824021007607008F28A7 /* CustomVoiceRecognize_DemoUITests.m */; };
+		FC2A825621007735008F28A7 /* CustomRecognizeExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2A825521007735008F28A7 /* CustomRecognizeExampleTableViewController.m */; };
+		FCC4BF4121FAD3C80043308F /* VoiceRecognizerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC4BF4021FAD3C80043308F /* VoiceRecognizerManager.m */; };
+		FCC4BF4621FAD4820043308F /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC4BF4521FAD4820043308F /* iflyMSC.framework */; };
+		FCC4BF4921FAD4A30043308F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC4BF4821FAD4A30043308F /* libz.tbd */; };
+		FCC4BF4F21FAD4CC0043308F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC4BF4E21FAD4CC0043308F /* libc++.tbd */; };
+		FCC4BF5021FAD4D30043308F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC4BF4D21FAD4CC0043308F /* AddressBook.framework */; };
+		FCC4BF5121FAD4D50043308F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC4BF4C21FAD4CC0043308F /* AudioToolbox.framework */; };
+		FCC4BF5221FAD4D90043308F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC4BF4A21FAD4CC0043308F /* AVFoundation.framework */; };
+		FCC4BF5321FAD4DB0043308F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC4BF4B21FAD4CC0043308F /* SystemConfiguration.framework */; };
+		FCC4BF5521FAD59D0043308F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC4BF5421FAD59D0043308F /* CoreTelephony.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC2A823221007607008F28A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2A821121007607008F28A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC2A821821007607008F28A7;
+			remoteInfo = CustomVoiceRecognize_Demo;
+		};
+		FC2A823D21007607008F28A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2A821121007607008F28A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC2A821821007607008F28A7;
+			remoteInfo = CustomVoiceRecognize_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC2A821921007607008F28A7 /* CustomVoiceRecognize_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomVoiceRecognize_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2A821C21007607008F28A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC2A821D21007607008F28A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC2A821F21007607008F28A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC2A822021007607008F28A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC2A822321007607008F28A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC2A822521007607008F28A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC2A822821007607008F28A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC2A822A21007607008F28A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2A822B21007607008F28A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC2A823121007607008F28A7 /* CustomVoiceRecognize_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomVoiceRecognize_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2A823521007607008F28A7 /* CustomVoiceRecognize_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomVoiceRecognize_DemoTests.m; sourceTree = "<group>"; };
+		FC2A823721007607008F28A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2A823C21007607008F28A7 /* CustomVoiceRecognize_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomVoiceRecognize_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2A824021007607008F28A7 /* CustomVoiceRecognize_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomVoiceRecognize_DemoUITests.m; sourceTree = "<group>"; };
+		FC2A824221007607008F28A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2A825421007735008F28A7 /* CustomRecognizeExampleTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomRecognizeExampleTableViewController.h; sourceTree = "<group>"; };
+		FC2A825521007735008F28A7 /* CustomRecognizeExampleTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomRecognizeExampleTableViewController.m; sourceTree = "<group>"; };
+		FCC4BF3F21FAD3C80043308F /* VoiceRecognizerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceRecognizerManager.h; sourceTree = "<group>"; };
+		FCC4BF4021FAD3C80043308F /* VoiceRecognizerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceRecognizerManager.m; sourceTree = "<group>"; };
+		FCC4BF4521FAD4820043308F /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = CustomVoiceRecognize_Demo/Demo/Model/Xunfei/iflyMSC.framework; sourceTree = SOURCE_ROOT; };
+		FCC4BF4821FAD4A30043308F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		FCC4BF4A21FAD4CC0043308F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FCC4BF4B21FAD4CC0043308F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FCC4BF4C21FAD4CC0043308F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FCC4BF4D21FAD4CC0043308F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		FCC4BF4E21FAD4CC0043308F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		FCC4BF5421FAD59D0043308F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC2A821621007607008F28A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC4BF5521FAD59D0043308F /* CoreTelephony.framework in Frameworks */,
+				FCC4BF4F21FAD4CC0043308F /* libc++.tbd in Frameworks */,
+				FCC4BF5021FAD4D30043308F /* AddressBook.framework in Frameworks */,
+				FCC4BF5121FAD4D50043308F /* AudioToolbox.framework in Frameworks */,
+				FCC4BF5321FAD4DB0043308F /* SystemConfiguration.framework in Frameworks */,
+				FCC4BF4921FAD4A30043308F /* libz.tbd in Frameworks */,
+				FCC4BF4621FAD4820043308F /* iflyMSC.framework in Frameworks */,
+				FCC4BF5221FAD4D90043308F /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2A822E21007607008F28A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2A823921007607008F28A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC2A821021007607008F28A7 = {
+			isa = PBXGroup;
+			children = (
+				FC2A821B21007607008F28A7 /* CustomVoiceRecognize_Demo */,
+				FC2A823421007607008F28A7 /* CustomVoiceRecognize_DemoTests */,
+				FC2A823F21007607008F28A7 /* CustomVoiceRecognize_DemoUITests */,
+				FC2A821A21007607008F28A7 /* Products */,
+				FCC4BF4721FAD4A30043308F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC2A821A21007607008F28A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC2A821921007607008F28A7 /* CustomVoiceRecognize_Demo.app */,
+				FC2A823121007607008F28A7 /* CustomVoiceRecognize_DemoTests.xctest */,
+				FC2A823C21007607008F28A7 /* CustomVoiceRecognize_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC2A821B21007607008F28A7 /* CustomVoiceRecognize_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FC2A824E210076CA008F28A7 /* Demo */,
+				FC2A821C21007607008F28A7 /* AppDelegate.h */,
+				FC2A821D21007607008F28A7 /* AppDelegate.m */,
+				FC2A821F21007607008F28A7 /* ViewController.h */,
+				FC2A822021007607008F28A7 /* ViewController.m */,
+				FC2A822221007607008F28A7 /* Main.storyboard */,
+				FC2A822521007607008F28A7 /* Assets.xcassets */,
+				FC2A822721007607008F28A7 /* LaunchScreen.storyboard */,
+				FC2A822A21007607008F28A7 /* Info.plist */,
+				FC2A822B21007607008F28A7 /* main.m */,
+			);
+			path = CustomVoiceRecognize_Demo;
+			sourceTree = "<group>";
+		};
+		FC2A823421007607008F28A7 /* CustomVoiceRecognize_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC2A823521007607008F28A7 /* CustomVoiceRecognize_DemoTests.m */,
+				FC2A823721007607008F28A7 /* Info.plist */,
+			);
+			path = CustomVoiceRecognize_DemoTests;
+			sourceTree = "<group>";
+		};
+		FC2A823F21007607008F28A7 /* CustomVoiceRecognize_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC2A824021007607008F28A7 /* CustomVoiceRecognize_DemoUITests.m */,
+				FC2A824221007607008F28A7 /* Info.plist */,
+			);
+			path = CustomVoiceRecognize_DemoUITests;
+			sourceTree = "<group>";
+		};
+		FC2A824E210076CA008F28A7 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FC2A8250210076E3008F28A7 /* ViewController */,
+				FC2A8257210078C5008F28A7 /* Model */,
+				FC2A824F210076D9008F28A7 /* View */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		FC2A824F210076D9008F28A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC2A8250210076E3008F28A7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC2A825421007735008F28A7 /* CustomRecognizeExampleTableViewController.h */,
+				FC2A825521007735008F28A7 /* CustomRecognizeExampleTableViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FC2A8257210078C5008F28A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCC4BF4221FAD44B0043308F /* Xunfei */,
+				FCC4BF3F21FAD3C80043308F /* VoiceRecognizerManager.h */,
+				FCC4BF4021FAD3C80043308F /* VoiceRecognizerManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FCC4BF4221FAD44B0043308F /* Xunfei */ = {
+			isa = PBXGroup;
+			children = (
+				FCC4BF4521FAD4820043308F /* iflyMSC.framework */,
+			);
+			name = Xunfei;
+			path = CustomVoiceRecognize_Demo/Demo/Xunfei;
+			sourceTree = SOURCE_ROOT;
+		};
+		FCC4BF4721FAD4A30043308F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCC4BF5421FAD59D0043308F /* CoreTelephony.framework */,
+				FCC4BF4D21FAD4CC0043308F /* AddressBook.framework */,
+				FCC4BF4C21FAD4CC0043308F /* AudioToolbox.framework */,
+				FCC4BF4A21FAD4CC0043308F /* AVFoundation.framework */,
+				FCC4BF4E21FAD4CC0043308F /* libc++.tbd */,
+				FCC4BF4B21FAD4CC0043308F /* SystemConfiguration.framework */,
+				FCC4BF4821FAD4A30043308F /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC2A821821007607008F28A7 /* CustomVoiceRecognize_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2A824521007607008F28A7 /* Build configuration list for PBXNativeTarget "CustomVoiceRecognize_Demo" */;
+			buildPhases = (
+				FC2A821521007607008F28A7 /* Sources */,
+				FC2A821621007607008F28A7 /* Frameworks */,
+				FC2A821721007607008F28A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomVoiceRecognize_Demo;
+			productName = CustomVoiceRecognize_Demo;
+			productReference = FC2A821921007607008F28A7 /* CustomVoiceRecognize_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC2A823021007607008F28A7 /* CustomVoiceRecognize_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2A824821007607008F28A7 /* Build configuration list for PBXNativeTarget "CustomVoiceRecognize_DemoTests" */;
+			buildPhases = (
+				FC2A822D21007607008F28A7 /* Sources */,
+				FC2A822E21007607008F28A7 /* Frameworks */,
+				FC2A822F21007607008F28A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC2A823321007607008F28A7 /* PBXTargetDependency */,
+			);
+			name = CustomVoiceRecognize_DemoTests;
+			productName = CustomVoiceRecognize_DemoTests;
+			productReference = FC2A823121007607008F28A7 /* CustomVoiceRecognize_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC2A823B21007607008F28A7 /* CustomVoiceRecognize_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2A824B21007607008F28A7 /* Build configuration list for PBXNativeTarget "CustomVoiceRecognize_DemoUITests" */;
+			buildPhases = (
+				FC2A823821007607008F28A7 /* Sources */,
+				FC2A823921007607008F28A7 /* Frameworks */,
+				FC2A823A21007607008F28A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC2A823E21007607008F28A7 /* PBXTargetDependency */,
+			);
+			name = CustomVoiceRecognize_DemoUITests;
+			productName = CustomVoiceRecognize_DemoUITests;
+			productReference = FC2A823C21007607008F28A7 /* CustomVoiceRecognize_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC2A821121007607008F28A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = MrYeL;
+				TargetAttributes = {
+					FC2A821821007607008F28A7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FC2A823021007607008F28A7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC2A821821007607008F28A7;
+					};
+					FC2A823B21007607008F28A7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC2A821821007607008F28A7;
+					};
+				};
+			};
+			buildConfigurationList = FC2A821421007607008F28A7 /* Build configuration list for PBXProject "CustomVoiceRecognize_Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC2A821021007607008F28A7;
+			productRefGroup = FC2A821A21007607008F28A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC2A821821007607008F28A7 /* CustomVoiceRecognize_Demo */,
+				FC2A823021007607008F28A7 /* CustomVoiceRecognize_DemoTests */,
+				FC2A823B21007607008F28A7 /* CustomVoiceRecognize_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC2A821721007607008F28A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2A822921007607008F28A7 /* LaunchScreen.storyboard in Resources */,
+				FC2A822621007607008F28A7 /* Assets.xcassets in Resources */,
+				FC2A822421007607008F28A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2A822F21007607008F28A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2A823A21007607008F28A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC2A821521007607008F28A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2A822121007607008F28A7 /* ViewController.m in Sources */,
+				FCC4BF4121FAD3C80043308F /* VoiceRecognizerManager.m in Sources */,
+				FC2A825621007735008F28A7 /* CustomRecognizeExampleTableViewController.m in Sources */,
+				FC2A822C21007607008F28A7 /* main.m in Sources */,
+				FC2A821E21007607008F28A7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2A822D21007607008F28A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2A823621007607008F28A7 /* CustomVoiceRecognize_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2A823821007607008F28A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2A824121007607008F28A7 /* CustomVoiceRecognize_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC2A823321007607008F28A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC2A821821007607008F28A7 /* CustomVoiceRecognize_Demo */;
+			targetProxy = FC2A823221007607008F28A7 /* PBXContainerItemProxy */;
+		};
+		FC2A823E21007607008F28A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC2A821821007607008F28A7 /* CustomVoiceRecognize_Demo */;
+			targetProxy = FC2A823D21007607008F28A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC2A822221007607008F28A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2A822321007607008F28A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC2A822721007607008F28A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2A822821007607008F28A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC2A824321007607008F28A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC2A824421007607008F28A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC2A824621007607008F28A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FJMVR73497;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CustomVoiceRecognize_Demo/Demo/Xunfei",
+					"$(PROJECT_DIR)/CustomVoiceRecognize_Demo/Demo/Model/Xunfei",
+				);
+				INFOPLIST_FILE = CustomVoiceRecognize_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrYeL.CustomVoiceRecognize-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC2A824721007607008F28A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FJMVR73497;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CustomVoiceRecognize_Demo/Demo/Xunfei",
+					"$(PROJECT_DIR)/CustomVoiceRecognize_Demo/Demo/Model/Xunfei",
+				);
+				INFOPLIST_FILE = CustomVoiceRecognize_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrYeL.CustomVoiceRecognize-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC2A824921007607008F28A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomVoiceRecognize_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrYeL.CustomDrawTable-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomVoiceRecognize_Demo.app/CustomVoiceRecognize_Demo";
+			};
+			name = Debug;
+		};
+		FC2A824A21007607008F28A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomVoiceRecognize_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrYeL.CustomDrawTable-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomVoiceRecognize_Demo.app/CustomVoiceRecognize_Demo";
+			};
+			name = Release;
+		};
+		FC2A824C21007607008F28A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomVoiceRecognize_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrYeL.CustomDrawTable-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomVoiceRecognize_Demo;
+			};
+			name = Debug;
+		};
+		FC2A824D21007607008F28A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomVoiceRecognize_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrYeL.CustomDrawTable-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomVoiceRecognize_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC2A821421007607008F28A7 /* Build configuration list for PBXProject "CustomVoiceRecognize_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2A824321007607008F28A7 /* Debug */,
+				FC2A824421007607008F28A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2A824521007607008F28A7 /* Build configuration list for PBXNativeTarget "CustomVoiceRecognize_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2A824621007607008F28A7 /* Debug */,
+				FC2A824721007607008F28A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2A824821007607008F28A7 /* Build configuration list for PBXNativeTarget "CustomVoiceRecognize_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2A824921007607008F28A7 /* Debug */,
+				FC2A824A21007607008F28A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2A824B21007607008F28A7 /* Build configuration list for PBXNativeTarget "CustomVoiceRecognize_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2A824C21007607008F28A7 /* Debug */,
+				FC2A824D21007607008F28A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC2A821121007607008F28A7 /* Project object */;
+}
